@@ -58,8 +58,8 @@ Python 3.10+
 uv (recommended) or pip
 An OpenRouter API Key
 
-Installation:
-**Clone the repository:**
+**Installation:**
+Clone the repository:
 ```
 git clone [https://github.com/YOUR-USERNAME/AI-Agent-in-python.git](https://github.com/YOUR-USERNAME/AI-Agent-in-python.git)
 cd AI-Agent-in-python
@@ -70,22 +70,22 @@ Create a .env file in the root directory and add your OpenRouter API key:
 OPENROUTER_API_KEY=your_openrouter_api_key_here
 ```
 
-Install dependencies:
-**Using uv:**
+**Install dependencies:**
+Using uv:
 ```
 uv sync
 ```
-Usage:
+**Usage:**
 Run the agent via main.py by providing a natural language task as a command-line argument:
 ```
 uv run main.py "Explain how the calculator renders results to the console."
 ```
-Verbose Mode:
+**Verbose Mode:**
 Pass the --verbose flag to see prompt token counts, function execution details, and step-by-step tool outputs:
 ```
 uv run main.py "Run the calculator tests and fix any failing test cases." --verbose
 ```
-Testing:
+**Testing:**
 Individual functions can be tested standalone using the dedicated test scripts in the root directory:
 ```
 uv run test_get_files_info.py
