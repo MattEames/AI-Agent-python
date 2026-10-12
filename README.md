@@ -59,8 +59,8 @@ uv (recommended) or pip
 An OpenRouter API Key
 
 Installation
-Clone the repository:
-```Bash
+```**Clone the repository:**
+**Bash**
 git clone [https://github.com/YOUR-USERNAME/AI-Agent-in-python.git](https://github.com/YOUR-USERNAME/AI-Agent-in-python.git)
 cd AI-Agent-in-python
 ```
